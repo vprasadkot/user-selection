@@ -1,0 +1,75 @@
+body{
+  font-family: Roboto
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #563d7c;
+  height: 50px;
+  padding: 20px;
+  color: #cbbde2;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.nav{
+  background: #4f4d54;
+}
+.nav a {
+  color: white;
+  margin-right: 30px;
+}
+.nav ul {
+  margin: 0px;
+  padding: 10px;
+}
+.nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+  margin: auto;
+.grid {
+  width: 650px;
+  margin: auto;
+}
+.grid .body {
+  height: 300px;
+  overflow: auto;
+}
+.grid ul {
+  padding: 0px;
+}
+.grid ul li {
+  display: inline-block;
+  width: 150px
+}
+.grid .header {
+  background: #cfcfcf;
+  padding: 3px;
+}
+.grid .row {
+  border-bottom: dotted 1px #ddd;
+}
+.grid .footer {
+  border-top: solid 1px #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
